@@ -1,0 +1,278 @@
+INFO - 2023-03-12 11:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-12 11:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-12 12:47:59 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 12:48:00 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 12:48:01 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 12:48:02 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 12:48:02 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 12:48:04 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 12:48:05 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 12:49:47 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 12:49:48 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 12:49:49 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 12:50:37 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 12:50:39 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 12:50:43 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 12:51:05 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 12:51:07 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:01:58 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:09:19 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:09:33 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:09:34 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:10:44 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:16:35 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:16:36 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:16:37 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:16:37 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:16:46 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:19:51 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:19:53 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:19:53 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:19:54 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:19:55 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:19:55 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:19:56 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:19:56 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-12 13:19:57 --> Undefined variable: rules
+in APPPATH\Controllers\Backend.php on line 81.
+ 1 APPPATH\Controllers\Backend.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rules', 'APPPATH\\Controllers\\Backend.php', 81, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-12 13:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-12 13:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-12 13:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-12 13:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

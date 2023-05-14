@@ -1,0 +1,16 @@
+CRITICAL - 2023-01-26 01:10:02 --> Cannot redeclare App\Controllers\Jabatan::create()
+in APPPATH\Controllers\Jabatan.php on line 47.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-01-26 01:12:53 --> include(massage.php): failed to open stream: No such file or directory
+in APPPATH\Views\pengguna\create.php on line 18.
+ 1 APPPATH\Views\pengguna\create.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(massage.php): failed to open stream: No such file or directory', 'APPPATH\\Views\\pengguna\\create.php', 18, [...])
+ 2 APPPATH\Views\pengguna\create.php(18): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pengguna\\create.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pengguna/create', [], true)
+ 6 APPPATH\Controllers\Pengguna.php(16): view('pengguna/create', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengguna->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengguna))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

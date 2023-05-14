@@ -1,0 +1,13 @@
+CRITICAL - 2023-01-25 12:44:07 --> include(message.php): failed to open stream: No such file or directory
+in APPPATH\Views\jabatan\create.php on line 21.
+ 1 APPPATH\Views\jabatan\create.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(message.php): failed to open stream: No such file or directory', 'APPPATH\\Views\\jabatan\\create.php', 21, [...])
+ 2 APPPATH\Views\jabatan\create.php(21): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\jabatan\\create.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('jabatan/create', [], true)
+ 6 APPPATH\Controllers\Jabatan.php(16): view('jabatan/create', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Jabatan->create()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jabatan))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

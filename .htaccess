@@ -1,0 +1,7 @@
+# Memastikan modul rewrite aktif
+RewriteEngine On
+
+# Menghilangkan index.php dari URL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /public/index.php/$1 [L]

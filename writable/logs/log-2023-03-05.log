@@ -1,0 +1,171 @@
+INFO - 2023-03-05 03:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 03:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 03:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 03:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-05 04:02:45 --> Declaration of App\Models\JabatanModel::update($data, $where) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+in APPPATH\Models\JabatanModel.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-05 04:03:25 --> Declaration of App\Models\JabatanModel::update($data, $where) must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+in APPPATH\Models\JabatanModel.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-05 04:33:04 --> syntax error, unexpected '}'
+in APPPATH\Models\KomponenDatatable.php on line 25.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\KomponenDatatable.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\KomponenDatatable')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\KomponenDatatable')
+ 4 APPPATH\Controllers\Backend.php(247): spl_autoload_call('App\\Models\\KomponenDatatable')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-05 04:33:23 --> mysqli_sql_exception: Column 'id' in order clause is ambiguous in D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WandaMaulidina\penggajian\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WandaMaulidina\penggajian\app\Models\KomponenDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WandaMaulidina\penggajian\app\Controllers\Backend.php(250): App\Models\KomponenDatatable->getDatatables()
+#6 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+#7 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#8 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WandaMaulidina\penggajian\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WandaMaulidina\penggajian\system\Commands\Server\rewrite.php(47): require_once('D:\\WandaMaulidi...')
+#11 {main}
+CRITICAL - 2023-03-05 04:33:23 --> Column 'id' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `komponen`
+JOIN `pengguna` `p` ON `p`.`id` = `komponen`.`id_pengguna`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 APPPATH\Models\KomponenDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Backend.php(250): App\Models\KomponenDatatable->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-05 04:33:54 --> mysqli_sql_exception: Column 'id' in order clause is ambiguous in D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WandaMaulidina\penggajian\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WandaMaulidina\penggajian\app\Models\KomponenDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WandaMaulidina\penggajian\app\Controllers\Backend.php(250): App\Models\KomponenDatatable->getDatatables()
+#6 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+#7 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#8 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WandaMaulidina\penggajian\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WandaMaulidina\penggajian\system\Commands\Server\rewrite.php(47): require_once('D:\\WandaMaulidi...')
+#11 {main}
+CRITICAL - 2023-03-05 04:33:54 --> Column 'id' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `komponen` `k`
+JOIN `pengguna` `p` ON `p`.`id` = `k`.`id_pengguna`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 APPPATH\Models\KomponenDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Backend.php(250): App\Models\KomponenDatatable->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-03-05 04:34:44 --> mysqli_sql_exception: Column 'id' in order clause is ambiguous in D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WandaMaulidina\penggajian\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WandaMaulidina\penggajian\app\Models\KomponenDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WandaMaulidina\penggajian\app\Controllers\Backend.php(250): App\Models\KomponenDatatable->getDatatables()
+#6 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+#7 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#8 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\WandaMaulidina\penggajian\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\WandaMaulidina\penggajian\system\Commands\Server\rewrite.php(47): require_once('D:\\WandaMaulidi...')
+#11 {main}
+CRITICAL - 2023-03-05 04:34:44 --> Column 'id' in order clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `komponen` `k`
+JOIN `pengguna` `p` ON `k`.`id_pengguna` = `p`.`id`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 APPPATH\Models\KomponenDatatable.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Backend.php(250): App\Models\KomponenDatatable->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-05 04:36:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\KomponenDatatable.php on line 23.
+ 1 APPPATH\Controllers\Backend.php(247): App\Models\KomponenDatatable->__construct(Object(CodeIgniter\HTTP\IncomingRequest))
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-05 04:37:44 --> Undefined variable: pengguna
+in APPPATH\Controllers\Backend.php on line 258.
+ 1 APPPATH\Controllers\Backend.php(258): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengguna', 'APPPATH\\Controllers\\Backend.php', 258, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-05 04:38:17 --> Undefined offset: 4
+in APPPATH\Models\KomponenDatatable.php on line 44.
+ 1 APPPATH\Models\KomponenDatatable.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'APPPATH\\Models\\KomponenDatatable.php', 44, [...])
+ 2 APPPATH\Models\KomponenDatatable.php(53): App\Models\KomponenDatatable->getDatatablesQuery()
+ 3 APPPATH\Controllers\Backend.php(250): App\Models\KomponenDatatable->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-05 04:58:55 --> Undefined offset: 3
+in APPPATH\Models\PenggunaDatatable.php on line 45.
+ 1 APPPATH\Models\PenggunaDatatable.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 3', 'APPPATH\\Models\\PenggunaDatatable.php', 45, [...])
+ 2 APPPATH\Models\PenggunaDatatable.php(54): App\Models\PenggunaDatatable->getDatatablesQuery()
+ 3 APPPATH\Controllers\Backend.php(390): App\Models\PenggunaDatatable->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_pengguna()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-05 05:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 05:16:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 05:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-05 05:38:46 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 32.
+ 1 APPPATH\Controllers\Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->proccess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-05 05:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-05 05:39:12 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 32.
+ 1 APPPATH\Controllers\Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->proccess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-05 05:40:50 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Login.php on line 32.
+ 1 APPPATH\Controllers\Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Login.php', 32, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->proccess()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-03-05 05:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-05 05:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

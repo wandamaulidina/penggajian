@@ -1,0 +1,31 @@
+CRITICAL - 2023-02-01 00:20:54 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\Backend.php on line 331.
+ 1 APPPATH\Controllers\Backend.php(331): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$email', 'APPPATH\\Controllers\\Backend.php', 331, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_pengguna()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 00:58:06 --> Call to undefined function App\Controllers\penggunaModel()
+in APPPATH\Controllers\Backend.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Backend->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 00:59:02 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\Backend.php on line 333.
+ 1 APPPATH\Controllers\Backend.php(333): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$email', 'APPPATH\\Controllers\\Backend.php', 333, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_pengguna()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-01 02:39:26 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\Backend.php on line 333.
+ 1 APPPATH\Controllers\Backend.php(333): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$email', 'APPPATH\\Controllers\\Backend.php', 333, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_pengguna()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

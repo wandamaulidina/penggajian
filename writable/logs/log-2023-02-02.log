@@ -1,0 +1,111 @@
+CRITICAL - 2023-02-02 00:02:45 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\Backend.php on line 333.
+ 1 APPPATH\Controllers\Backend.php(333): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$email', 'APPPATH\\Controllers\\Backend.php', 333, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_pengguna()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 00:03:57 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\Backend.php on line 333.
+ 1 APPPATH\Controllers\Backend.php(333): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$email', 'APPPATH\\Controllers\\Backend.php', 333, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_pengguna()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 00:06:47 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\Backend.php on line 333.
+ 1 APPPATH\Controllers\Backend.php(333): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$email', 'APPPATH\\Controllers\\Backend.php', 333, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_pengguna()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 00:07:14 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\Backend.php on line 333.
+ 1 APPPATH\Controllers\Backend.php(333): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$email', 'APPPATH\\Controllers\\Backend.php', 333, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_pengguna()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 00:27:43 --> Class 'App\Models\komponen_gajiModel' not found
+in APPPATH\Controllers\Backend.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Backend->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 01:22:43 --> Undefined property: stdClass::$gaji_pokok
+in APPPATH\Controllers\Backend.php on line 216.
+ 1 APPPATH\Controllers\Backend.php(216): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$gaji_pokok', 'APPPATH\\Controllers\\Backend.php', 216, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 01:39:25 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\Backend.php on line 333.
+ 1 APPPATH\Controllers\Backend.php(333): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$email', 'APPPATH\\Controllers\\Backend.php', 333, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_pengguna()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 01:39:40 --> Undefined property: stdClass::$gaji_pokok
+in APPPATH\Controllers\Backend.php on line 216.
+ 1 APPPATH\Controllers\Backend.php(216): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$gaji_pokok', 'APPPATH\\Controllers\\Backend.php', 216, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 01:40:35 --> Undefined property: stdClass::$gaji_pokok
+in APPPATH\Controllers\Backend.php on line 216.
+ 1 APPPATH\Controllers\Backend.php(216): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$gaji_pokok', 'APPPATH\\Controllers\\Backend.php', 216, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 01:40:53 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\Backend.php on line 333.
+ 1 APPPATH\Controllers\Backend.php(333): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$email', 'APPPATH\\Controllers\\Backend.php', 333, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_pengguna()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 01:57:28 --> Undefined property: stdClass::$gaji_pokok
+in APPPATH\Controllers\Backend.php on line 216.
+ 1 APPPATH\Controllers\Backend.php(216): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$gaji_pokok', 'APPPATH\\Controllers\\Backend.php', 216, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 01:59:21 --> Undefined property: stdClass::$gaji_pokok
+in APPPATH\Controllers\Backend.php on line 216.
+ 1 APPPATH\Controllers\Backend.php(216): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$gaji_pokok', 'APPPATH\\Controllers\\Backend.php', 216, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 02:01:14 --> Undefined property: stdClass::$gaji_pokok
+in APPPATH\Controllers\Backend.php on line 216.
+ 1 APPPATH\Controllers\Backend.php(216): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$gaji_pokok', 'APPPATH\\Controllers\\Backend.php', 216, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-02 03:35:10 --> Undefined property: stdClass::$gaji_pokok
+in APPPATH\Controllers\Backend.php on line 216.
+ 1 APPPATH\Controllers\Backend.php(216): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$gaji_pokok', 'APPPATH\\Controllers\\Backend.php', 216, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_komponen()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

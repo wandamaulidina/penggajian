@@ -1,0 +1,22 @@
+INFO - 2023-03-06 01:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-03-06 01:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-03-06 01:31:26 --> Undefined offset: 3
+in APPPATH\Models\PenggunaDatatable.php on line 45.
+ 1 APPPATH\Models\PenggunaDatatable.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 3', 'APPPATH\\Models\\PenggunaDatatable.php', 45, [...])
+ 2 APPPATH\Models\PenggunaDatatable.php(54): App\Models\PenggunaDatatable->getDatatablesQuery()
+ 3 APPPATH\Controllers\Backend.php(390): App\Models\PenggunaDatatable->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_pengguna()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-03-06 01:31:31 --> Undefined offset: 3
+in APPPATH\Models\PenggunaDatatable.php on line 45.
+ 1 APPPATH\Models\PenggunaDatatable.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 3', 'APPPATH\\Models\\PenggunaDatatable.php', 45, [...])
+ 2 APPPATH\Models\PenggunaDatatable.php(54): App\Models\PenggunaDatatable->getDatatablesQuery()
+ 3 APPPATH\Controllers\Backend.php(390): App\Models\PenggunaDatatable->getDatatables()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_pengguna()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

@@ -1,0 +1,52 @@
+CRITICAL - 2023-02-07 01:23:48 --> Call to undefined method CodeIgniter\Router\RouteCollection::setAutoRoutes()
+in APPPATH\Config\Routes.php on line 18.
+ 1 SYSTEMPATH\Router\RouteCollection.php(266): require()
+ 2 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-07 01:34:10 --> mysqli_sql_exception: Unknown column 'gaji_pokok' in 'field list' in D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id,gaji_...', 0)
+#1 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,gaji_...')
+#2 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,gaji_...')
+#3 D:\WandaMaulidina\penggajian\app\Models\PenggunaModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT id,gaji_...')
+#4 D:\WandaMaulidina\penggajian\app\Controllers\Backend.php(400): App\Models\PenggunaModel->data()
+#5 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(934): App\Controllers\Backend->data_pengguna()
+#6 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WandaMaulidina\penggajian\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\WandaMaulidina\penggajian\system\Commands\Server\rewrite.php(47): require_once('D:\\WandaMaulidi...')
+#10 {main}
+CRITICAL - 2023-02-07 01:34:10 --> Unknown column 'gaji_pokok' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\PenggunaModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT id,gaji_pokok,uang_makan,uang_transport FROM pengguna')
+ 2 APPPATH\Controllers\Backend.php(400): App\Models\PenggunaModel->data()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->data_pengguna()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-07 01:52:27 --> mysqli_sql_exception: Unknown column 'gaji_pokok' in 'field list' in D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT id,gaji_...', 0)
+#1 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT id,gaji_...')
+#2 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT id,gaji_...')
+#3 D:\WandaMaulidina\penggajian\app\Models\PenggunaModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT id,gaji_...')
+#4 D:\WandaMaulidina\penggajian\app\Controllers\Backend.php(400): App\Models\PenggunaModel->data()
+#5 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(934): App\Controllers\Backend->data_pengguna()
+#6 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#7 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\WandaMaulidina\penggajian\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 D:\WandaMaulidina\penggajian\system\Commands\Server\rewrite.php(47): require_once('D:\\WandaMaulidi...')
+#10 {main}
+CRITICAL - 2023-02-07 01:52:27 --> Unknown column 'gaji_pokok' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 APPPATH\Models\PenggunaModel.php(21): CodeIgniter\Database\BaseConnection->query('SELECT id,gaji_pokok,uang_makan,uang_transport FROM pengguna')
+ 2 APPPATH\Controllers\Backend.php(400): App\Models\PenggunaModel->data()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->data_pengguna()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

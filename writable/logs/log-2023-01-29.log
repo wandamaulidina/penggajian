@@ -1,0 +1,331 @@
+CRITICAL - 2023-01-29 05:07:58 --> Invalid file: "dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(11): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 05:08:39 --> Invalid file: "dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(11): view('dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 05:12:46 --> Argument 2 passed to view() must be of the type array, string given, called in D:\WandaMaulidina\penggajian\app\Controllers\Backend.php on line 8
+in SYSTEMPATH\Common.php on line 1163.
+ 1 APPPATH\Controllers\Backend.php(8): view('template/header', 'INI HALAMAN DASHBOARD')
+ 2 APPPATH\Controllers\Backend.php(21): App\Controllers\Backend->template('modul/dashboard', 'INI HALAMAN DASHBOARD')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 05:13:40 --> Invalid file: "jabatan/create.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('jabatan/create.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('jabatan/create', [], true)
+ 3 APPPATH\Controllers\Backend.php(13): view('jabatan/create')
+ 4 APPPATH\Controllers\Backend.php(23): App\Controllers\Backend->template('modul/dashboard', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 05:15:46 --> Invalid file: "/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/index.php')
+ 2 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('/index', [], true)
+ 3 APPPATH\Controllers\Backend.php(11): view('/index')
+ 4 APPPATH\Controllers\Backend.php(32): App\Controllers\Backend->template('ROOTPATH\\public', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->jabatan()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 05:45:46 --> Undefined property: App\Controllers\Backend::$bukuModel
+in APPPATH\Controllers\Backend.php on line 47.
+ 1 APPPATH\Controllers\Backend.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Backend::$bukuModel', 'APPPATH\\Controllers\\Backend.php', 47, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 05:45:49 --> Undefined property: App\Controllers\Backend::$bukuModel
+in APPPATH\Controllers\Backend.php on line 47.
+ 1 APPPATH\Controllers\Backend.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Backend::$bukuModel', 'APPPATH\\Controllers\\Backend.php', 47, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 05:53:35 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Backend.php on line 69.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Backend')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Backend', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 05:53:59 --> Declaration of App\Models\JabatanModel::update() must be compatible with CodeIgniter\Model::update($id = NULL, $data = NULL): bool
+in APPPATH\Models\JabatanModel.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2023-01-29 05:54:18 --> mysqli_sql_exception: Table 'penggajian.backend' doesn't exist in D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\WandaMaulidina\penggajian\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\WandaMaulidina\penggajian\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WandaMaulidina\penggajian\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('PRESIDEN', 'nama', Array, NULL, 'nama')
+#6 D:\WandaMaulidina\penggajian\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nama', 'nama', 'PRESIDEN', Array, Array)
+#7 D:\WandaMaulidina\penggajian\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 D:\WandaMaulidina\penggajian\app\Controllers\Backend.php(49): CodeIgniter\Controller->validate(Array)
+#9 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+#10 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#11 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WandaMaulidina\penggajian\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\WandaMaulidina\penggajian\system\Commands\Server\rewrite.php(47): require_once('D:\\WandaMaulidi...')
+#14 {main}
+CRITICAL - 2023-01-29 05:54:18 --> Table 'penggajian.backend' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `Backend`
+WHERE `nama` = :nama:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('PRESIDEN', 'nama', [...], null, 'nama')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nama', 'nama', 'PRESIDEN', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Backend.php(49): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-29 05:55:42 --> mysqli_sql_exception: Table 'penggajian.backend' doesn't exist in D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\WandaMaulidina\penggajian\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\WandaMaulidina\penggajian\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WandaMaulidina\penggajian\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('PRESIDEN', 'nama', Array, NULL, 'nama')
+#6 D:\WandaMaulidina\penggajian\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nama', 'nama', 'PRESIDEN', Array, Array)
+#7 D:\WandaMaulidina\penggajian\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 D:\WandaMaulidina\penggajian\app\Controllers\Backend.php(49): CodeIgniter\Controller->validate(Array)
+#9 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+#10 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#11 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WandaMaulidina\penggajian\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\WandaMaulidina\penggajian\system\Commands\Server\rewrite.php(47): require_once('D:\\WandaMaulidi...')
+#14 {main}
+CRITICAL - 2023-01-29 05:55:42 --> Table 'penggajian.backend' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `Backend`
+WHERE `nama` = :nama:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('PRESIDEN', 'nama', [...], null, 'nama')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nama', 'nama', 'PRESIDEN', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Backend.php(49): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-01-29 05:59:26 --> mysqli_sql_exception: Table 'penggajian.backend' doesn't exist in D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\WandaMaulidina\penggajian\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 D:\WandaMaulidina\penggajian\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 D:\WandaMaulidina\penggajian\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 D:\WandaMaulidina\penggajian\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WandaMaulidina\penggajian\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('PRESIDEN', 'nama', Array, NULL, 'nama')
+#6 D:\WandaMaulidina\penggajian\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nama', 'nama', 'PRESIDEN', Array, Array)
+#7 D:\WandaMaulidina\penggajian\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 D:\WandaMaulidina\penggajian\app\Controllers\Backend.php(49): CodeIgniter\Controller->validate(Array)
+#9 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+#10 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+#11 D:\WandaMaulidina\penggajian\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\WandaMaulidina\penggajian\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\WandaMaulidina\penggajian\system\Commands\Server\rewrite.php(47): require_once('D:\\WandaMaulidi...')
+#14 {main}
+CRITICAL - 2023-01-29 05:59:26 --> Table 'penggajian.backend' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `Backend`
+WHERE `nama` = :nama:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('PRESIDEN', 'nama', [...], null, 'nama')
+ 4 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('nama', 'nama', 'PRESIDEN', [...], [...])
+ 5 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 6 APPPATH\Controllers\Backend.php(49): CodeIgniter\Controller->validate([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 06:00:00 --> Undefined variable: create
+in APPPATH\Controllers\Backend.php on line 61.
+ 1 APPPATH\Controllers\Backend.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: create', 'APPPATH\\Controllers\\Backend.php', 61, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 06:00:49 --> Undefined variable: create
+in APPPATH\Controllers\Backend.php on line 61.
+ 1 APPPATH\Controllers\Backend.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: create', 'APPPATH\\Controllers\\Backend.php', 61, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 06:00:49 --> Undefined variable: create
+in APPPATH\Controllers\Backend.php on line 61.
+ 1 APPPATH\Controllers\Backend.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: create', 'APPPATH\\Controllers\\Backend.php', 61, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 06:08:03 --> Call to a member function listErrors() on bool
+in APPPATH\Controllers\Backend.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 06:08:17 --> Call to a member function getErrors() on bool
+in APPPATH\Controllers\Backend.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 06:09:27 --> Call to a member function getErrors() on bool
+in APPPATH\Controllers\Backend.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->submit_jabatan()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 06:14:20 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+in APPPATH\Controllers\Backend.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Backend.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Backend')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Backend')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Backend')
+ 5 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Backend', true)
+ 6 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 06:45:40 --> Too few arguments to function App\Models\JabatanModel::__construct(), 0 passed in D:\WandaMaulidina\penggajian\app\Controllers\Backend.php on line 13 and exactly 1 expected
+in APPPATH\Models\JabatanModel.php on line 20.
+ 1 APPPATH\Controllers\Backend.php(13): App\Models\JabatanModel->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Backend->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 13:24:30 --> Class 'App\Controllers\Services' not found
+in APPPATH\Controllers\Backend.php on line 85.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_jabatan()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 13:25:49 --> Class 'APP\Controllers\Services' not found
+in APPPATH\Controllers\Backend.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_jabatan()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 13:26:13 --> Class 'APP\Controllers\Services' not found
+in APPPATH\Controllers\Backend.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_jabatan()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 13:26:34 --> Class 'App\Controllers\Services' not found
+in APPPATH\Controllers\Backend.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_jabatan()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 13:31:09 --> Class 'App\Controllers\Services' not found
+in APPPATH\Controllers\Backend.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_jabatan()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 13:32:12 --> Class 'App\Controllers\UserDatatable' not found
+in APPPATH\Controllers\Backend.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_jabatan()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 13:33:17 --> Too few arguments to function App\Models\UserDatatable::__construct(), 0 passed in D:\WandaMaulidina\penggajian\app\Controllers\Backend.php on line 17 and exactly 1 expected
+in APPPATH\Models\UserDatatable.php on line 18.
+ 1 APPPATH\Controllers\Backend.php(17): App\Models\UserDatatable->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Backend->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 13:33:37 --> Undefined property: stdClass::$name
+in APPPATH\Controllers\Backend.php on line 99.
+ 1 APPPATH\Controllers\Backend.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$name', 'APPPATH\\Controllers\\Backend.php', 99, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->list_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 13:47:08 --> Too few arguments to function App\Controllers\Backend::delete_jabatan(), 0 passed in D:\WandaMaulidina\penggajian\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Backend.php on line 115.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->delete_jabatan()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 13:48:06 --> Too few arguments to function App\Controllers\Backend::delete_jabatan(), 0 passed in D:\WandaMaulidina\penggajian\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Backend.php on line 115.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->delete_jabatan()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 13:49:44 --> Undefined property: App\Controllers\Backend::$JabatanModel
+in APPPATH\Controllers\Backend.php on line 118.
+ 1 APPPATH\Controllers\Backend.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Backend::$JabatanModel', 'APPPATH\\Controllers\\Backend.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Backend->delete_jabatan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-29 14:06:06 --> syntax error, unexpected ',', expecting ')'
+in APPPATH\Config\Routes.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
